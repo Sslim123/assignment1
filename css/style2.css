@@ -1,16 +1,17 @@
-@media only screen and (max-width: 448px){
+@media only screen and (max-width: 500px){
    
     .header_icon{
-        width: 448px;
+        width: 440px;
         display: block;
-        margin-left: 35px;
+        align-items: center;
+        margin: 0 auto;
     }
     .header_icon img{
         width: 400px;
         height: 100px;
     }
     .icons{
-        width: 446px;
+        width: 440px;
 
     }
     .icons a{
@@ -20,29 +21,27 @@
    .nav_bar{
     width: 440px;
     height: 250px;
-    margin-left: 30px;
+    font: white;
+    margin-top: 25px;
    }
    .nav_bar ul {
-    position: relative;
-    background-color: red;
-    right: 130px;
-    width: 440px;
+    width: 410px;
     height: 150px;
-    margin-right: 40px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
    }
    li {
+    position: relative;
     width: 130px;
     height: 40px;
     font-size: .8em;
    }
    .section-h1{
-    width: 447px;
+    width: 440px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
     justify-content: space-around;
    }
    .img_child {
@@ -53,26 +52,55 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.section3 {
-    width: 447px;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-}
 .class_img{
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
 }
-.class_img2{
-    display: grid;
-    grid-template-columns: auto(auto-fit, 1fr);
-}
+
 .footerSpan{
     position: relative;
-    width: 448px;
-    height: 200px;
-    margin-left: 30px;
+    width: 490px;
+    height: 120px;
+    margin: 0 auto;
+   }
+   .img_chil1{
+    width: 410px;
+    height: auto;
+    text-align: center;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+   }
+   .img_chil1 .im1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .img_child2{
+    width: 410px;
+    height: auto;
+text-align: center;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+   }
+   .section3{
+    width: 410px;
+    height: 310px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgba(94, 198, 15, 0.869);
+    position:relative;
+    bottom: 40px;
+    color: #fff;
+   }
+   .section3 p{
+    width: 390px;
+
    }
 }
